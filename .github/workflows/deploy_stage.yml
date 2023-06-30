@@ -3,7 +3,7 @@ name: AIO App CI
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   deploy:
     name: Deploy to Stage
@@ -11,7 +11,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        node-version: ['16']
+        node-version: ["16"]
         os: [ubuntu-latest]
     steps:
       - name: Checkout
@@ -27,17 +27,6 @@ jobs:
         with:
           os: ${{ matrix.os }}
           version: 9.x.x
-      - name: Auth
-        uses: adobe/aio-apps-action@2.0.2
-        with:
-          os: ${{ matrix.os }}
-          command: auth
-          CLIENTID: ${{ secrets.CLIENTID_STAGE }}
-          CLIENTSECRET: ${{ secrets.CLIENTSECRET_STAGE }}
-          TECHNICALACCOUNTID: ${{ secrets.TECHNICALACCID_STAGE }}
-          IMSORGID: ${{ secrets.IMSORGID_STAGE }}
-          SCOPES: ${{ secrets.SCOPES_STAGE }}
-          KEY: ${{ secrets.KEY_STAGE }}
       - name: Build
         env:
           AIO_RUNTIME_NAMESPACE: ${{ secrets.AIO_RUNTIME_NAMESPACE_STAGE }}
