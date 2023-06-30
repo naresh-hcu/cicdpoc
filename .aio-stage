@@ -1,0 +1,116 @@
+{
+  "project": {
+    "id": "4566206088345000515",
+    "name": "cicdpoc",
+    "title": "cicdpoc",
+    "org": {
+      "id": "48941",
+      "name": "IBM North America",
+      "ims_org_id": "91D55B255640B3AE7F000101@AdobeOrg",
+      "details": {
+        "services": [
+          {
+            "name": "API Mesh for Adobe Developer App Builder",
+            "code": "GraphQLServiceSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Express Embed SDK",
+            "code": "CCEmbedCompanionAPI",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Stock",
+            "code": "StockSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Creative Cloud Libraries",
+            "code": "CC-Libraries-SDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "PDF Embed API",
+            "code": "ViewSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Commerce with Adobe ID",
+            "code": "AdobeCommerceWithAdobeID",
+            "type": "adobeid"
+          },
+          {
+            "name": "Lightroom Services",
+            "code": "LightroomPartnersSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Analytics",
+            "code": "AdobeAnalyticsSDK",
+            "type": "analytics"
+          },
+          {
+            "name": "I/O Management API",
+            "code": "AdobeIOManagementAPISDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Photoshop API",
+            "code": "CIS SDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Status API",
+            "code": "StatusAPISDK",
+            "type": "entp"
+          },
+          {
+            "name": "Primetime Ad Insertion",
+            "code": "Ad Config Service",
+            "type": "entp"
+          },
+          {
+            "name": "Privacy Service API",
+            "code": "McGdprSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Experience Platform Launch API",
+            "code": "McDtmSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe I/O Events for Adobe Commerce",
+            "code": "commerceeventing",
+            "type": "entp"
+          },
+          {
+            "name": "I/O Events",
+            "code": "CloudIntegrationSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Analytics",
+            "code": "AdobeAnalyticsSDK",
+            "type": "entp"
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "4566206088345008722",
+      "name": "Dev",
+      "title": "Dev",
+      "description": "Development workspace",
+      "action_url": "https://48941-cicdpoc-dev.adobeioruntime.net",
+      "app_url": "https://48941-cicdpoc-dev.adobeio-static.net",
+      "details": {
+        "credentials": [],
+        "services": [],
+        "events": {
+          "registrations": []
+        }
+      }
+    }
+  }
+}
